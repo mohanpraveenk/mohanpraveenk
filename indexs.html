@@ -104,25 +104,122 @@
             </div>
         </section>
     
-        <!-- SECTION 3 -->
-        <section class="section-3">
-            <div class="section-3-container">
-                <div class="section-3-img">
-                    <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
-                </div>
-                <div class="section-3-content">
-                    <h1>Get the Zomato App</h1>
-                    <p>
-                        Download the app from
-                    </p>
-                    <div class="section-3-download">
-                        <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">    
-                        <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
     
+    
+	<!-- Get zomato app -->
+	<section class="zom-app">
+		<img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+		<div class="zom-app-right">
+			<h1>Get the Zomato App</h1>
+			<p>We will send you a link, open it on your phone to download the app</p>
+			<div class="radio-btn">
+				<label for="email"><input type="radio" id="email" name="app" value="email">Email</label>
+				<label for="phone"><input type="radio" id="phone" name="app" value="phone">Phone</label>
+			</div>
+			<div class="email-phone">
+				<input type="text" placeholder="Email">
+				<a class="btn-share" href="#">Share App Link</a>
+			</div>
+			<p class="small-text"><small>Download app from</small></p>
+			<div class="app-store">
+				<div class="app-image">
+					<img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">    
+				</div>
+				<div class="app-image"> 
+                        <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<style>
+.zom-app {
+	background-color: #FFFBF7;
+	margin: 100px auto;
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.zom-app img {
+	height: 450px;
+}
+
+.zom-app .zom-app-right {
+	margin-left: 50px;
+	width: 450px;
+}
+
+.zom-app .zom-app-right h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.zom-app .zom-app-right p{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.zom-app-right .radio-btn {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 50%;
+	padding-right: 50px;
+	margin-bottom: 20px;
+}
+
+.zom-app-right .radio-btn input[type="radio"] {
+	transform: scale(1.5);
+	margin-right: 10px;
+}
+
+.zom-app-right .email-phone {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.zom-app-right input[type="text"] {
+	padding: 13px 12px;
+	border-radius: 8px;
+	border: 1px solid #cfcfcf;
+	margin-right: 10px;
+}
+
+.zom-app-right a.btn-share {
+	color: #fff;
+	background-color: #ed5a6b;
+	border-radius: 8px;
+	padding: 13px 12px;
+	text-decoration: none;
+}
+
+.zom-app-right a.btn-share:hover {
+	background-color: #ec4654;
+}
+
+.zom-app-right .app-store {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.zom-app-right p.small-text {
+	color: #9c9c9c;
+	margin-top: 20px;
+}
+
+.zom-app-right .app-store .app-image {
+	margin-right: 20px;
+}
+
+.zom-app-right .app-store img {
+	width: 137px;
+	height: 40px;
+}
+</style>
     </body>
     <!-- Footer -->
 	<section class="footer-bar">
